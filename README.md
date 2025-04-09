@@ -1,12 +1,86 @@
-# React + Vite
+# Landing Page - React + Vite + TailwindCSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una landing page desarrollada con las siguientes tecnologías:
 
-Currently, two official plugins are available:
+- React
+- Vite
+- TailwindCSS
+- Framer Motion (animaciones)
+- React Typing Effect (efecto de texto mecanografiado)
+- PostCSS
+- Autoprefixer
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Requisitos
 
-## Expanding the ESLint configuration
+- Node.js v18.x o superior
+- npm v9.x o superior
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Instalación
+
+1. Clonar el repositorio
+
+```bash
+git clone https://github.com/tu-usuario/tu-repo.git
+cd tu-repo
+
+Instalar dependencias
+
+bash
+Copy
+Edit
+npm install
+Iniciar el proyecto en modo desarrollo
+
+bash
+Copy
+Edit
+npm run dev
+El proyecto se iniciará en:
+
+arduino
+Copy
+Edit
+http://localhost:5173
+Dependencias principales
+Paquete	Versión recomendada
+react	^18.x
+react-dom	^18.x
+vite	^4.x
+tailwindcss	^3.x
+framer-motion	^11.x
+react-typing-effect	^3.x
+postcss	^8.x
+autoprefixer	^10.x
+Estructura del proyecto
+bash
+Copy
+Edit
+/src
+  /components
+    /Navbar
+    /Footer
+  /pages
+    home.jsx
+  /sections
+    /Hero
+      Hero.jsx
+      Hero.css
+/App.css
+/main.jsx
+/App.jsx
+/tailwind.config.js
+Personalización
+Los estilos globales se encuentran en App.css.
+
+Configuración de TailwindCSS en tailwind.config.js.
+
+Las animaciones se encuentran en los componentes específicos, principalmente en Hero.jsx.
+
+Scripts disponibles
+
+npm run dev: Levanta el servidor de desarrollo.
+
+npm run build: Genera la versión de producción.
+
+npm run preview: Previsualiza el build de producción localmente.
+```
