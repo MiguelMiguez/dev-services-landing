@@ -7,9 +7,8 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
+
 body {
-  background: linear-gradient(to bottom right, #275e8a, #6b728e, #8a72a7);
-  background-attachment: fixed;
-  background-size: cover;
+  background-color: #0f172a;
   color: white;
 }
